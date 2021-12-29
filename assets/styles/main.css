@@ -1,0 +1,66 @@
+.card {
+    width: 200px;
+    margin: auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 100px;
+}
+
+body{
+    width: 1440px;
+    background-color: hsl(217, 54%, 11%);
+    font-family: Outfit;
+}
+
+.nft {
+    margin: auto;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+h4 {
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 12px;
+    color: hsl(215, 51%, 70%);
+}
+
+.price {
+    font-weight: 400;
+    font-size: 11px;
+    color: hsl(178, 100%, 50%);
+}
+
+.time-left {
+    font-weight: 400;
+    font-size: 10px;
+    color: hsl(215, 51%, 70%);
+}
+
+.eth-icon {
+    width: 7px;
+}
+
+.clock-icon {
+    width: 12px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.dock-left {
+    text-align: left;
+}
+
+.dock-right {
+    text-align: right;
+}
