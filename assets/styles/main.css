@@ -13,6 +13,12 @@ body{
     font-family: Outfit;
 }
 
+.flex{
+    display: inline-flex;
+    width: 100%;
+}
+
+
 .nft {
     margin: auto;
     display: block;
@@ -35,21 +41,25 @@ p {
 .price {
     font-weight: 400;
     font-size: 11px;
-    color: hsl(178, 100%, 50%);
+    color: rgb(0, 255, 247);
+    margin-right: 33%;
 }
 
 .time-left {
     font-weight: 400;
-    font-size: 10px;
+    font-size: 11px;
     color: hsl(215, 51%, 70%);
+    justify-content: right;
 }
 
 .eth-icon {
     width: 7px;
+    margin-right: 6px;
 }
 
 .clock-icon {
     width: 12px;
+    margin-right: 7px;
 }
 
 .grid-container {
@@ -59,8 +69,36 @@ p {
 
 .dock-left {
     text-align: left;
+    align-items: center;
 }
 
 .dock-right {
     text-align: right;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: hsl(215, 51%, 70%);
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.credits {
+    color: hsl(215, 51%, 70%);
+    font-size: 11px;
+    display: inline-block;
+    padding-bottom: 2px;
+    align-items: center;
+}
+
+.author {
+    color: hsl(0, 0%, 100%);
+}
+
+.avatar {
+    width: 20px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+    align-items: center;
 }
