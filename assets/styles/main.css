@@ -1,5 +1,14 @@
+body{
+    /* width: 1440px; */
+    background-color: hsl(217, 54%, 11%);
+    font-family: Outfit;
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+}
+
 .card {
     width: 200px;
+    height: 375px;
     margin: auto;
     background-color: hsl(216, 50%, 16%);
     border-radius: 10px;
@@ -7,49 +16,34 @@
     margin-top: 100px;
 }
 
-body{
-    width: 1440px;
-    background-color: hsl(217, 54%, 11%);
-    font-family: Outfit;
-}
-
-.flex{
-    display: inline-flex;
-    width: 100%;
-}
-
-
-.nft {
-    margin: auto;
-    display: block;
+.card > img {
     width: 100%;
     border-radius: 5px;
 }
 
-h4 {
+.name {
     font-weight: 600;
-    color: hsl(0, 0%, 100%);
     font-size: 14px;
+    margin-top: 15px;
 }
 
-p {
+.description {
     font-weight: 300;
     font-size: 12px;
     color: hsl(215, 51%, 70%);
+    margin: 15px 0;
+    /* margin-top: 15px;
+    margin-bottom: 15px; */
 }
 
-.price {
-    font-weight: 400;
-    font-size: 11px;
-    color: rgb(0, 255, 247);
-    margin-right: 33%;
+.flex{
+    display: flex;
 }
 
-.time-left {
-    font-weight: 400;
-    font-size: 11px;
-    color: hsl(215, 51%, 70%);
-    justify-content: right;
+.price-container{
+    display: flex;
+    width: 50%;
+    align-items: center;
 }
 
 .eth-icon {
@@ -57,23 +51,29 @@ p {
     margin-right: 6px;
 }
 
+.price {
+    font-weight: 400;
+    font-size: 11px;
+    color: rgb(0, 255, 247);
+}
+
+.time-left-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+}
+
 .clock-icon {
     width: 12px;
-    margin-right: 7px;
+    margin-right: 6px;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.dock-left {
-    text-align: left;
-    align-items: center;
-}
-
-.dock-right {
-    text-align: right;
+.time-left {
+    font-weight: 400;
+    font-size: 11px;
+    color: hsl(215, 51%, 70%);
+    justify-content: right;
 }
 
 hr {
@@ -84,21 +84,24 @@ hr {
     margin-bottom: 12px;
 }
 
-.credits {
-    color: hsl(215, 51%, 70%);
-    font-size: 11px;
-    display: inline-block;
-    padding-bottom: 2px;
+.credits-container{
+    display: flex;
     align-items: center;
-}
-
-.author {
-    color: hsl(0, 0%, 100%);
 }
 
 .avatar {
     width: 20px;
     border: 1px solid hsl(0, 0%, 100%);
     border-radius: 100%;
-    align-items: center;
+    margin-right: 12px;
 }
+
+.credits {
+    color: hsl(215, 51%, 70%);
+    font-size: 11px;
+}
+
+.author {
+    color: hsl(0, 0%, 100%);
+}
+
