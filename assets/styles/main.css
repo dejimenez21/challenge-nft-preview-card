@@ -16,7 +16,7 @@ body{
     margin-top: 100px;
 }
 
-.card > img {
+.card > header > img {
     width: 100%;
     border-radius: 5px;
 }
@@ -32,8 +32,6 @@ body{
     font-size: 12px;
     color: hsl(215, 51%, 70%);
     margin: 15px 0;
-    /* margin-top: 15px;
-    margin-bottom: 15px; */
 }
 
 .flex{
@@ -79,14 +77,14 @@ body{
 hr {
     height: 1px;
     border: none;
-    background-color: hsl(215, 51%, 70%);
+    background-color: hsl(215, 32%, 27%);
     margin-top: 15px;
-    margin-bottom: 12px;
 }
 
 .credits-container{
     display: flex;
     align-items: center;
+    margin-top: 12px;
 }
 
 .avatar {
@@ -105,3 +103,10 @@ hr {
     color: hsl(0, 0%, 100%);
 }
 
+footer {  
+    margin-top: 100px;
+}
+
+footer > hr {
+    background-color: white;
+}
