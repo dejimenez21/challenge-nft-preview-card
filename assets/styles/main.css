@@ -27,6 +27,11 @@ body{
     margin-top: 15px;
 }
 
+.name:hover {
+    color: rgb(0, 255, 247);
+    cursor: pointer;
+}
+
 .description {
     font-weight: 300;
     font-size: 12px;
@@ -101,6 +106,11 @@ hr {
 
 .author {
     color: hsl(0, 0%, 100%);
+}
+
+.author:hover {
+    color: rgb(0, 255, 247);
+    cursor: pointer;
 }
 
 footer {  
